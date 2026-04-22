@@ -41,7 +41,7 @@ This creates significant friction for analysis and modeling.
 ### Data Integration
 - Merged multiple datasets into a unified structure  
 - Handled missing values differently based on data type:
-  - numerical -> `NaN`
+  - numerical -> 'NaN'
   - string -> 'Not Available'
   - categorical/metadata -> standardized placeholders  
 - Ensured compatibility across heterogeneous data sources  
@@ -57,19 +57,8 @@ This creates significant friction for analysis and modeling.
 - Ensured reproducibility of the pipeline  
 
 ## Conceptual Architecture:
-Multiple Data Sources
-↓
-Ingestion Layer (API / File / Stream)
-↓
-Preprocessing & Normalization
-↓
-Feature & Parameters Alignment
-↓
-Data Integration & Merging
-↓
-Structured Dataset (Optimized Storage)
-↓
-Validation & Quality Checks
+Multiple Data Sources -> Ingestion Layer (API / File / Stream) -> Preprocessing & Normalization -> Feature & Parameters Alignment -> 
+-> Data Integration & Merging -> Structured Dataset (Optimized Storage) -> Validation & Quality Checks
 
 ## Tech Stack:
 - Python  
